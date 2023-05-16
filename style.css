@@ -1,0 +1,79 @@
+body{
+    scroll-behavior: smooth; 
+
+}
+.container{
+    position: relative;
+   background:linear-gradient(-135deg,red ,orange ,yellow ,green ,blue,indigo ,violet );
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 90vh;
+    padding-top: 15px;
+}
+.img_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn_1{
+    position: absolute;
+    margin-right: 1000px;
+    margin-top: 300px;
+    height: 40px;
+    width: 40px;
+    padding: 20px;
+    cursor: pointer;
+}
+.btn_2{
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 300px;
+    height: 40px;
+    width: 40px;
+    padding: 20px;
+    height: 30px;
+    cursor: pointer;
+}
+.img_1{
+    width: 40%;
+    height: 95%;
+    position: absolute;
+    top: 1;
+    left: 1;
+    z-index: 1;
+    display: flex;
+    border-radius: 20px;
+}
+.img_2{
+    width: 40%;
+    height: 95%;
+    position: absolute;
+    top: 1;
+    left: 1;
+    z-index: 1;
+    display: none;
+    border-radius: 20px;
+}
+.img_3{
+    width: 40%;
+    height: 95%;
+    position: absolute;
+    top: 1;
+    left: 1;
+    z-index: 1;
+    display: none;
+    border-radius: 20px;
+}
+.img_4{
+    width: 40%;
+    height: 95%;
+    position: absolute;
+    top: 1;
+    left: 1;
+    z-index: 1;
+    display: none;
+    border-radius: 20px;
+    border: 1px solid rgb(226, 85, 85);
+}
